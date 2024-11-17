@@ -6,6 +6,7 @@
 Please enter the order you wish to use
 5
 e is estimated as 2.7166666667, with difference -1.615162e-03
+
 [sp52@sciprog Practical_7]$ ./e
 Please enter the order you wish to use
 10
