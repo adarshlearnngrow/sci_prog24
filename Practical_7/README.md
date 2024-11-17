@@ -2,6 +2,7 @@
 
 ## Output for e.c
 [sp52@sciprog Practical_7]$ gcc e.c -o e
+
 [sp52@sciprog Practical_7]$ ./e
 Please enter the order you wish to use
 5
