@@ -5,8 +5,8 @@ This week, we build on concepts from last week’s practical and this week’s l
 
 
 ```Shell
-[sp52@sciprog practical02]$ gcc trap.c -o out
-[sp52@sciprog practical02]$ ./out
+[sp52@sciprog practical04]$ gcc trap.c -o out
+[sp52@sciprog practical04]$ ./out
 TanArr[0] = 0.000000
 TanArr[1] = 0.087489
 TanArr[2] = 0.176327
