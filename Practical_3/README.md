@@ -1,6 +1,10 @@
 ## This is Practical 3
+This program approximates the integral of \( \tan(x) \) from 0 to \( \pi/3 \) using the Trapezoidal Rule, compares it to \( \ln(2) \), and calculates the absolute and relative errors.
 
-SSH output
+SSH output:
+```Shell
+[sp52@sciprog practical02]$ gcc trap.c -o out
+[sp52@sciprog practical02]$ ./out
 The value of sum before loop: 1.732051
 I am even and here's the value of sum: 1.907028
 I am even and here's the value of sum: 2.795581
@@ -13,3 +17,4 @@ The final value of the sums is: 0.695045
 The actual value is: 0.693147
 abs_diff = 0.001898
 rel_diff = 0.002738
+```
