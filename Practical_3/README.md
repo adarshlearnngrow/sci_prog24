@@ -3,8 +3,8 @@ This program approximates the integral of \( \tan(x) \) from 0 to \( \pi/3 \) us
 
 SSH output:
 ```Shell
-[sp52@sciprog practical02]$ gcc trap.c -o out
-[sp52@sciprog practical02]$ ./out
+[sp52@sciprog practical03]$ gcc trap.c -o out
+[sp52@sciprog practical03]$ ./out
 The value of sum before loop: 1.732051
 I am even and here's the value of sum: 1.907028
 I am even and here's the value of sum: 2.795581
