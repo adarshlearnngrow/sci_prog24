@@ -1,14 +1,27 @@
-## This is Practical 5
+# Practical 5 - Fibonacci Series and Inverse Hyperbolic Tangent
+
+## Tasks
+
+1. **Fibonacci Series**:
+   - Write a program that computes and displays the Fibonacci series up to the nth term, where the nth term is provided by the user.
+   - Use a function to update the previous two terms in the sequence and loop through to generate the entire series.
+
+2. **Inverse Hyperbolic Tangent**:
+   - Implement two methods to calculate the inverse hyperbolic tangent (arctanh) of a real number:
+     - One method using a Maclaurin series approximation, stopping when the element is smaller than a given precision (delta).
+     - Another method using natural logarithms.
 
 SSH output
-1. fib.c 
+1. Fibonacci
+```Shell 
 Please input a positive integer n
 10
 The fib. series is:
 0 1 1 2 3 5 8 13 21 34
+```
 
-2. arctan.c
-
+2. Inverse Hyberbolic Tangent
+```Shell
 Please enter a positive real number delta:
 0.01
 The dif. at x=-0.900000 is -0.0191068029
@@ -191,3 +204,4 @@ The dif. at x=0.860000 is 0.0107278508
 The dif. at x=0.870000 is 0.0133431296
 The dif. at x=0.880000 is 0.0166015197
 The dif. at x=0.890000 is 0.0149653952
+```
